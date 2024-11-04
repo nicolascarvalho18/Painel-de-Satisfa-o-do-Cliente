@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel de Satisfação do Cliente</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="dashboard">
+    <h1>Atendimento ao Cliente Retenção e Painel de Satisfação</h1>
+    
+    <div class="card-summary">
+      <div class="card">
+        <p>80%</p>
+        <span>Request Answered 2017</span>
+      </div>
+      <div class="card">
+        <p>1.04M</p>
+        <span>Total Request 2017</span>
+      </div>
+      <div class="card">
+        <p>$75M</p>
+        <span>Total Revenue 2017</span>
+      </div>
+      <div class="card">
+        <p>10%</p>
+        <span>Support Costs to Revenue 2017</span>
+      </div>
+    </div>
+
+    <div class="chart-container">
+      <canvas id="requestVolumeChart"></canvas>
+    </div>
+    <div class="chart-container">
+      <canvas id="revenueChart"></canvas>
+    </div>
+    <div class="chart-container">
+      <canvas id="satisfactionChart"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
